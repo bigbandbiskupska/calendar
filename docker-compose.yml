@@ -1,0 +1,8 @@
+version: '2'
+services:
+  calendar:
+    build: docker
+    ports:
+      - "8005:80"
+    volumes:
+      - ".:/app"
